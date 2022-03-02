@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for f in $PWD/White/x2/*; \
+do echo "Sharpening $f file.." \
+&& OUTPUT_FILE="`basename $f`" \
+&& echo "Output to $OUTPUT_FILE" \
+&& convert $f -sharpen 0x3 $PWD/White/x2/$OUTPUT_FILE; \
+done

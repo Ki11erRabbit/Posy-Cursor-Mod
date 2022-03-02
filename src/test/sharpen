@@ -1,0 +1,11 @@
+#!/bin/bash
+
+~/git/Posy-Cursor-Mod/src/Black/x1/sharpen &
+~/git/Posy-Cursor-Mod/src/Black/x1_25/sharpen &
+~/git/Posy-Cursor-Mod/src/Black/x1_5/sharpen &
+~/git/Posy-Cursor-Mod/src/Black/x2/sharpen &
+
+~/git/Posy-Cursor-Mod/src/White/x1/sharpen &
+~/git/Posy-Cursor-Mod/src/White/x1_25/sharpen &
+~/git/Posy-Cursor-Mod/src/White/x1_5/sharpen &
+~/git/Posy-Cursor-Mod/src/White/x2/sharpen &

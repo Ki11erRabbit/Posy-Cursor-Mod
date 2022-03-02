@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for f in /home/ki11errabbit/git/Posy-Cursor-Mod/src/White/x1/Sharpened/*; \
+do echo "Sharpening $f file.." \
+&& OUTPUT_FILE="`basename $f`" \
+&& echo "Output to $OUTPUT_FILE" \
+&& convert $f -sharpen 0x3 $OUTPUT_FILE; \
+done
